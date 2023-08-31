@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Black Ops One', cursive;
+}
+
+body {
+    background-color: rgba(21, 35, 231, 0.514);
+}
+
+h3 {
+    font-size: 120px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 180px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.start {
+    color: rgb(13, 172, 66);
+}
+
+.stop {
+    color: rgb(255, 0, 0, 0.5);
+}
+
+.reset {
+    color: rgba(68, 0, 255, 0.5);
+}
+
+button {
+    font-size: 100px;
+    padding: 40px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
